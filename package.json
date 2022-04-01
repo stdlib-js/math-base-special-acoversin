@@ -1,0 +1,47 @@
+{
+  "name": "@stdlib/math-base-special-acoversin",
+  "version": "0.0.0",
+  "description": "Compute the inverse coversed sine.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-acoversin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "acoversin",
+    "acoversine",
+    "arccoversin",
+    "arccoversine",
+    "coversed sine",
+    "versed sine",
+    "acoversinus",
+    "arcvers",
+    "covers",
+    "cover",
+    "acvs",
+    "arc",
+    "versed",
+    "coversed",
+    "sine",
+    "sin",
+    "asin",
+    "trig",
+    "trigonometry",
+    "radians",
+    "angle"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
