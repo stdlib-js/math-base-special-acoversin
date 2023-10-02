@@ -56,43 +56,30 @@ The [inverse coversed sine][inverse-coversed-sine] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-acoversin
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-acoversin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoversin@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-acoversin/tags). For example,
-
-```javascript
-acoversin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoversin@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var acoversin = require( 'path/to/vendor/umd/math-base-special-acoversin/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoversin@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.acoversin;
-})();
-</script>
+var acoversin = require( '@stdlib/math-base-special-acoversin' );
 ```
 
 #### acoversin( x )
@@ -133,14 +120,9 @@ v = acoversin( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoversin@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var acoversin = require( '@stdlib/math-base-special-acoversin' );
 
 var x = linspace( 0.0, 2.0, 100 );
 
@@ -148,11 +130,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( acoversin( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -215,8 +192,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-acoversin.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-acoversin
 
-[test-image]: https://github.com/stdlib-js/math-base-special-acoversin/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-base-special-acoversin/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-base-special-acoversin/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-acoversin/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-acoversin/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-acoversin?branch=main
@@ -249,13 +226,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos/tree/umd
+[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos
 
-[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin/tree/umd
+[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin
 
-[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin/tree/umd
+[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin
 
-[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin/tree/umd
+[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin
 
 <!-- </related-links> -->
 
