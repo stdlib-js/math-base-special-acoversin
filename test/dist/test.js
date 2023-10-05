@@ -30,8 +30,8 @@ var acoversin = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/julia/data.json' );
-var smallPositive = require( './../..xtures/julia/small_positive.json' );
+var data = require( './../fixtures/julia/data.json' );
+var smallPositive = require( './../fixtures/julia/small_positive.json' );
 
 
 // TESTS //
