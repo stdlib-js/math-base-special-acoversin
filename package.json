@@ -41,7 +41,8 @@
   "dependencies": {
     "@stdlib/math-base-napi-unary": "^0.2.1",
     "@stdlib/math-base-special-asin": "^0.2.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/utils-library-manifest": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.1",
