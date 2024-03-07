@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-acoversin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compute the inverse coversed sine.",
   "license": "Apache-2.0",
   "author": {
