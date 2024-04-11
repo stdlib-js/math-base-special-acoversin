@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@stdlib/math-base-napi-unary": "^0.2.1",
-    "@stdlib/math-base-special-asin": "^0.2.1",
+    "@stdlib/math-base-special-asin": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
