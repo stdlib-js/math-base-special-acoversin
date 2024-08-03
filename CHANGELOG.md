@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2024-08-03)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
 </details>
 
@@ -40,7 +40,32 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.4 (2024-07-28)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
+-   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -50,7 +75,31 @@ No changes reported for this release.
 
 ## 0.2.3 (2024-04-04)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6ea8070`](https://github.com/stdlib-js/stdlib/commit/6ea8070523d0007c15da8f81191fcf0b65645e27) - **docs:** fix JSDoc description in `math/base/special/acoversin` [(#1853)](https://github.com/stdlib-js/stdlib/pull/1853) _(by Rejoan Sardar)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Rejoan Sardar
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -60,7 +109,66 @@ No changes reported for this release.
 
 ## 0.2.2 (2024-03-07)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - add C implementation for `math/base/special/acoversin` [(#142)](https://github.com/stdlib-js/stdlib/pull/142)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#776](https://github.com/stdlib-js/stdlib/issues/776)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - **fix:** add missing gypfile field entries _(by Philipp Burckhardt)_
+-   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
+-   [`1096686`](https://github.com/stdlib-js/stdlib/commit/1096686e16dd4515a7aaa5bdc35ff5803ec0349f) - **feat:** add C implementation for `math/base/special/acoversin` [(#142)](https://github.com/stdlib-js/stdlib/pull/142) _(by Aman Bhansali)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Aman Bhansali
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -100,7 +208,56 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-23)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+-   [`ce7e336`](https://github.com/stdlib-js/stdlib/commit/ce7e3367c0f9477773fe76dd0eca64dc6ad33c02) - **docs:** update equations _(by Philipp Burckhardt)_
+-   [`c5da1f9`](https://github.com/stdlib-js/stdlib/commit/c5da1f9a22b1033d40115798acf13a09acf9410d) - **docs:** render equations via math code blocks _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
