@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-21)
+## Unreleased (2025-09-07)
 
 <section class="reverts">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5dbe6e4`](https://github.com/stdlib-js/stdlib/commit/5dbe6e40efd490d36fb4c83d78444470d23886e0) - **chore:** add structured package data for packages in `math/base/special` [(#8033)](https://github.com/stdlib-js/stdlib/pull/8033) _(by Gunj Joshi)_
 -   [`85bcdeb`](https://github.com/stdlib-js/stdlib/commit/85bcdebc11a08f86085a93d36c9cba450eadbc93) - **chore:** fix EditorConfig lint errors [(#7920)](https://github.com/stdlib-js/stdlib/pull/7920) _(by Nakul Krishnakumar)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`850472b`](https://github.com/stdlib-js/stdlib/commit/850472b35f4cf47cab44047acd94a9120d6d5b77) - **docs:** replace manual `for` loop in examples [(#6182)](https://github.com/stdlib-js/stdlib/pull/6182) _(by Karan Anand)_
@@ -56,9 +57,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Karan Anand
 -   Nakul Krishnakumar
 -   Philipp Burckhardt
